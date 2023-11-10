@@ -1,12 +1,29 @@
 body {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: peachpuff;
 }
 
 a {
   font-size: 20px;
-  color: white;
-  background: darkgoldenrod;
+  color: blueviolet;
   text-decoration: none;
   font-weight: 500;
+}
+
+img {
+  max-width: 90%;
+  display: block;
+  border: 2px solid blanchedalmond;
+  margin: 40px auto;
+}
+
+.links {
+  background: darkgoldenrod;
+  margin: 0 250px;
+}
+
+.links a {
+  color: white;
+  padding: 0 10px;
 }
